@@ -1,0 +1,24 @@
+{
+  "name": "jpeg-exif-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "start": "npm run build && node ./build/index.js C:/Pictures"
+  },
+  "author": "Simon Pratt",
+  "license": "ISC",
+  "dependencies": {
+    "chunk-promise": "^1.2.0",
+    "exifreader": "^2.13.0",
+    "json2csv": "^4.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
