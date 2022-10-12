@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "chunk-promise": "^1.2.0",
-    "exifreader": "^2.13.0",
+    "exifreader": "^4.6.0",
     "json2csv": "^4.5.4"
   },
   "devDependencies": {
